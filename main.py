@@ -3,7 +3,7 @@ import asyncio
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 
-# Получа ток из переменных окружения (безопасный метод&)
+# Получа ток из переменных окружения (безопасный метод?)
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 
 bot = Bot(token=TOKEN)
